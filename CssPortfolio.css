@@ -1,0 +1,974 @@
+
+
+@font-face{
+    font-family:'Century Gothic';
+    src: url('CENTURY GOTHIC/GOTHIC.TTF') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+body{
+    background-image:linear-gradient(
+        rgba(0, 0, 0, 0.692),
+        rgba(0, 0, 0, 0.692)
+    ), url("Iconos e imágenes/mountains.jpg");
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+}
+
+p{
+    color:#FEFED5;
+}
+
+#secciones a{
+    color:#FEFED5;
+}
+
+.container{
+ max-width:360px;
+max-height:640px;
+}
+
+
+/*PAGINA INICIO*/
+#principal{
+    background-position: right;
+
+}
+#titulo{
+    font-family:'Century Gothic';
+    position: relative;
+    padding:0;
+    left: 10px; 
+    top: 30px;
+    font-size:50px;
+    text-align: left;
+    color:#FEFED5;
+    line-height: 55px;
+}
+#subtitulo {
+    position: relative;
+    font-size: 25px;
+    left:0px;
+    top:50px;
+    text-align: left;
+    line-height: 30px;
+    color:#FEFED5;
+
+}
+#ilustracion{
+    position: absolute;
+    right:0;
+    bottom: 0;
+    transform: scaleX(-1);
+    z-index: 0;
+}
+#hamburguesa{
+    position:absolute;
+    left:15px;
+    bottom:15px;
+}
+.casa{
+    position:absolute;
+    right:30px;
+    top:25px;
+}
+
+/*MENU*/
+#secciones{
+    font-family: 'Century Gothic';
+    font-size:50px;
+    position: relative;
+    padding:0;
+    top: 30px;
+    text-align: center;
+    
+    line-height: 100px;
+    color:#FEFED5;
+}
+#casaInicial{
+    position:absolute;
+    left:25px;
+    bottom:15px;
+
+}
+
+
+/*SOBRE MI y ESTUDIOS*/
+#plantillaMovil{
+    position:relative;
+    padding-bottom: 20px;
+    padding-top:20px;
+    font-family: 'Century Gothic';
+    font-size:50px;
+    color:#FEFED5;
+}
+#descripciones{
+    position:absolute;
+    font-size:15px;
+}
+
+/*CONTACTO*/
+#plantillaContacto{
+    position:relative;
+    padding-bottom: 20px;
+    padding-top:20px;
+    font-family: 'Century Gothic';
+    font-size:45px;
+    color:#FEFED5;
+}
+
+#descripcionContacto{
+    font-size:20px;
+    text-align: center;
+}
+
+#iconosContacto{
+    margin-left: 38px;
+    
+}
+
+#botonFormulario{
+position:absolute;
+font-size:22px;
+top: 300px;
+left: 22px;
+background-color: #bbc4d583;
+border-radius: 10px;
+}
+
+/*FORMULARIO*/
+#cabezeraFormulario{
+    position:relative;
+    padding-bottom: 20px;
+    padding-top:23px;
+    font-family: 'Century Gothic';
+    font-size:40px;
+    color:#FEFED5;
+
+}
+
+#labelFormulario{
+    font-family: 'Century Gothic';
+    background-color: #bbc4d583;
+    color:#FEFED5;
+    z-index: 1;
+}
+
+#campoTexto{
+    color:#FEFED5;
+    background-color: #bbc4d583;
+}
+
+#label{
+    color:#FEFED5;
+}
+
+#botonEnviar{
+    position:absolute;
+    font-size:22px;
+    bottom: 130px;
+    left: 12px;
+    background-color: #bbc4d583;
+    border-radius: 10px;
+}
+
+
+/******************** MEDIAS QUERY  ********************/
+
+/*MEDIA QUERY MOVIL*/
+@media (max-width: 759px)
+{
+    #tituloTablet{
+        display:none;
+    }
+   #ilustracionInicioTablet{
+       display: none;
+   }
+   #hamburguesaInicioTablet{
+       display:none;
+   }
+   #ilustracionSolo{
+       display: none;
+   }
+   #ilustracionDragon{
+       display: none;
+   }
+   #descripcion{
+       display:none;
+   }
+   #plantillaTablet{
+       display: none;
+   }
+   #plantillaTabletPequeño{
+       display: none;
+   }
+   #casaTablet{
+       display: none;
+   }
+   #sobreMiTablet{
+       display: none;
+   }
+   #sobreMiTabletPequeño{
+       display: none;
+   }
+   #psobreMiTablet{
+       display: none;
+   }
+   #sobreMiContacto{
+       display: none;
+   }
+   #sobreMiContactoPequeño{
+       display: none;
+   }
+   #psobreMiContacto{
+       display: none;
+   }
+   #casaFormularioTablet{
+       display: none;
+   }
+   
+    p{
+        color:#FEFED5;
+    }
+    
+    #secciones a{
+        color:#FEFED5;
+    }
+    
+    .container{
+     max-width:360px;
+    max-height:640px;
+    }
+    
+    
+    /*PAGINA INICIO*/
+    #principal{
+        background-position: right;
+    
+    }
+    #titulo{
+        font-family:'Century Gothic';
+        position: relative;
+        padding:0;
+        left: 10px; 
+        top: 30px;
+        font-size:50px;
+        text-align: left;
+        color:#FEFED5;
+        line-height: 55px;
+    }
+    #subtitulo {
+        position: relative;
+        font-size: 25px;
+        left:0px;
+        top:50px;
+        text-align: left;
+        line-height: 30px;
+        color:#FEFED5;
+    
+    }
+    #ilustracionMovil{
+        position: absolute;
+        right:0;
+        bottom: 0;
+        transform: scaleX(-1);
+        z-index: 0;
+    }
+    #hamburguesaMovil{
+        position:absolute;
+        left:15px;
+        bottom:15px;
+    }
+    #casaMovil{
+        position:absolute;
+        right:30px;
+        top:25px;
+    }
+    
+    /*MENU*/
+    #secciones{
+        font-family: 'Century Gothic';
+        font-size:50px;
+        position: relative;
+        padding:0;
+        top: 30px;
+        text-align: center;
+        
+        line-height: 100px;
+        color:#FEFED5;
+    }
+    #casaInicial{
+        position:absolute;
+        left:25px;
+        bottom:15px;
+    
+    }
+    
+    
+    /*SOBRE MI y ESTUDIOS*/
+    #plantillaMovil{
+        position:relative;
+        padding-bottom: 20px;
+        padding-top:20px;
+        font-family: 'Century Gothic';
+        font-size:50px;
+        color:#FEFED5;
+    }
+    #descripciones{
+        position:absolute;
+        font-size:15px;
+    }
+    
+    /*CONTACTO*/
+    #plantillaContacto{
+        position:relative;
+        padding-bottom: 20px;
+        padding-top:20px;
+        font-family: 'Century Gothic';
+        font-size:45px;
+        color:#FEFED5;
+    }
+    
+    #descripcionContacto{
+        font-size:20px;
+        text-align: center;
+    }
+    
+    #iconosContacto{
+        margin-left: 38px;
+        
+    }
+    
+    #botonFormulario{
+    position:absolute;
+    font-size:22px;
+    top: 300px;
+    left: 22px;
+    background-color: #bbc4d583;
+    border-radius: 10px;
+    }
+    
+    /*FORMULARIO*/
+    #cabezeraFormulario{
+        position:relative;
+        padding-bottom: 20px;
+        padding-top:23px;
+        font-family: 'Century Gothic';
+        font-size:40px;
+        color:#FEFED5;
+    
+    }
+    
+    #labelFormulario{
+        font-family: 'Century Gothic';
+        background-color: #bbc4d583;
+        color:#FEFED5;
+        z-index: 1;
+    }
+    
+    #campoTexto{
+        color:#FEFED5;
+        background-color: #bbc4d583;
+    }
+    
+    #label{
+        color:#FEFED5;
+    }
+    
+    #botonEnviar{
+        position:absolute;
+        font-size:22px;
+        bottom: 130px;
+        left: 12px;
+        background-color: #bbc4d583;
+        border-radius: 10px;
+    }
+    
+}
+
+/*******************MEDIA QUERY PARA TABLET**********************/
+@media (max-width:1024px) and (min-width:760px)
+{
+    /*INICIO*/
+    #titulo{
+        display: none;
+    }
+    #ilustracion
+    {
+        display: none;
+    }
+    #hamburguesa{
+        display: none;
+    }
+    #ilustracionInicioTablet{
+        position: absolute;
+        top:0;
+        left: 0;
+        transform: scaleX(+1);
+        
+
+    }
+    #ilustracionInicioTablet img{
+        width:260px;
+        height:340px;
+    }
+    
+
+    #ilustracionSolo{
+        position: absolute;
+        bottom:-4%;
+        left: 0%;
+        transform: scaleX(+1);
+    }
+    #ilustracionSolo img{
+        width:350px;
+        height:495px;
+    }
+
+    #ilustracionDragon{
+        position: absolute;
+        top:-85px;
+        right: -40px;
+    }
+    #ilustracionDragon img{
+        position: relative;
+        width:380px;
+        height: 540px;
+    }
+    #tituloTablet{
+        position: absolute;
+        padding:0;
+        left: 250px; 
+        top: 250px;
+        right:50px;
+        font-size:90px;
+        text-align: center;
+        color:#FEFED5;
+        line-height: 100px;
+    }
+
+    #subtitulo{
+        font-size: 30px;
+        left:0px;
+        top:20px;
+        text-align: center;
+        line-height: 30px;
+        color:#FEFED5;
+    }
+
+    #hamburguesaInicioTablet{
+        position:absolute;
+        padding-top:3%;
+        right:3%;
+    }
+    #hamburguesaInicioTablet img{
+        width:65px;
+        height:50px;
+    }
+
+     #secciones{
+        font-size:70px;
+        position: relative;
+        padding:0;
+        top: 25px;
+        line-height: 200px;
+    }   
+
+   #casaInicial{
+       left:95%;
+   }
+
+    /*SOBRE MI*/
+    #plantillaMovil{
+        display:none;
+    }
+
+    #ilustracionMovil{
+        display:none;
+    }
+    #hamburguesaMovil{
+        display:none;
+    }
+    #casaMovil{
+        display:none;
+    }
+    #plantillaMovil{
+        display:none;
+    }
+    #plantillaTablet{
+        position:absolute;
+        padding-left: 85px;
+        padding-top:0px;
+        font-family: 'Century Gothic';
+        font-size:50px;
+        line-height:200px;
+        text-align:center;
+    }
+
+    #plantillaTabletPequeño{
+        position:absolute;
+        padding-left: 55px;
+        padding-top:0px;
+        font-family: 'Century Gothic';
+        font-size:20px;
+        line-height:200px;
+        text-align:center;
+    }
+
+    #descripcion{
+        background-color: #FEFED5;
+        position:absolute;
+        width:60%;
+        height:100%;
+        right:0px;  
+    }
+
+   
+
+    #ilustracionTablet{
+        position: absolute;
+        right:0;
+        bottom: 0;
+        transform: scaleX(+1);
+        z-index: 0;
+    }
+    
+    #descripcionesTablet{
+        position:absolute;
+        text-align:center;
+        padding-top:25px;
+        padding-left:60px;
+        padding-right:60px;
+        font-family:'Century Gothic';
+        font-size:25px;
+        color:#1A1C13;
+        line-height:30px;
+    }
+    
+    #casaTablet{
+        width:50px;
+         height:65px;
+         position:absolute;
+        top:25px;
+        left:25px;
+    }
+    
+    #estudiosTablet{
+        padding-top:210px;
+    }
+
+    #plantillaContacto{
+        display: none;
+    }
+    #descripcionContacto{
+        display: none;
+    }
+    #iconosContactoMovil{
+        display: none;
+    }
+   
+
+    #sobreMiTabletPequeño{
+        position:absolute;
+        padding-left:14%;
+        padding-top:0%;
+        font-family: 'Century Gothic';
+        font-size:20px;
+        line-height:320px;
+        text-align:center;
+    }
+    
+    #sobreMiTablet{
+        position:absolute;
+        padding-left:10%;
+        padding-top:28%;
+        font-size:50px;
+
+    }
+
+    
+
+    #plantillaTablet{
+    position:absolute;
+        padding-left: 85px;
+        padding-top:0px;
+        font-family: 'Century Gothic';
+        font-size:50px;
+        line-height:200px;
+        text-align:center;
+    }
+
+    #puedesContactarme{
+        padding-top:30px;
+        text-align: center;
+        font-size:45px;
+        color:#1A1C13;
+    }
+
+    #sobreMiContactoPequeño{
+        position:absolute;
+        padding-left: 17%;
+        padding-top:2%;
+        font-family: 'Century Gothic';
+        font-size:20px;
+        line-height:200px;
+        text-align:center;
+    }
+
+    #psobreMiContacto{
+        font-size:50px;
+        padding-top:50%;
+        padding-left:9%;
+    }
+    
+
+    #iconosContactoTablet{
+        padding-top:15%;
+    }
+    #iconosContactoTablet img{
+        width:70px; 
+        height:85px;
+    }
+
+    #iconosContacto{
+        margin-left: 100px;
+    }
+
+    #botonFormulario{
+        display:none; 
+    }
+
+    #botonFormularioTablet{
+        position:absolute;
+        font-size:32px;
+        top: 400px;
+        left: 15%;
+        right:15%;
+        background-color: #bbc4d583;
+        border-radius: 10px;
+    }
+
+    #botonEnviar{
+        left: 4%;
+    }
+
+    #casaFormularioTablet{
+        position:absolute;
+        right:3%;
+       bottom:2%;
+    }
+
+
+
+}
+
+/***********MEDIAS QUERY PARA PC*************/
+@media (min-width:1025px){
+    #titulo{
+        display: none;
+    }
+    #ilustracion
+    {
+        display: none;
+    }
+    #hamburguesa{
+        display: none;
+    }
+    #plantillaMovil{
+        display:none;
+    }
+
+    #ilustracionMovil{
+        display:none;
+    }
+    #hamburguesaMovil{
+        display:none;
+    }
+    #casaMovil{
+        display:none;
+    }
+    #plantillaMovil{
+        display:none;
+    }
+    #botonFormulario{
+        display:none; 
+    }
+
+    #ilustracionInicioTablet{
+        position: absolute;
+        bottom:0;
+        left: 0;
+        transform: scaleX(+1);
+        right:0%;
+
+    }
+    #ilustracionInicioTablet img{
+        width:700px;
+        height:988px;
+    }
+
+    #tituloTablet{
+        position: absolute;
+        padding:0;
+        left:40%;
+        right: 5%; 
+        top: 40%;
+        right:8%;
+        font-size:130px;
+        text-align: center;
+        color:#FEFED5;
+        line-height: 130px;
+    }
+
+    #subtitulo{
+        font-size: 45px;
+        left:0px;
+        top:20px;
+        text-align: center;
+        line-height: 30px;
+        color:#FEFED5;
+    }
+
+    #hamburguesaInicioTablet{
+        position:absolute;
+        padding-top:3%;
+        left:92%;
+    }
+    #hamburguesaInicioTablet img{
+        width:100px;
+        height:85px;
+    }
+
+    #ilustracionSolo{
+        position: absolute;
+        bottom:0%;
+        left: 1%;
+        transform: scaleX(+1);
+    }
+    #ilustracionSolo img{
+        width:495px;
+        height:700px;
+    }
+
+    #ilustracionDragon{
+        position: absolute;
+        top:-15%;
+        right:0%;
+    }
+    #ilustracionDragon img{
+        width:590px;
+        height: 835px;
+    }
+
+    #secciones{
+        font-size: 115px;
+        line-height: 250%;
+    }
+    
+    #casaInicial{
+        left:3%;
+        top:3%;
+    }
+    #casaInicial img{
+
+        width:90px;
+        height:100px;
+    }
+
+    #descripcion{
+        background-color: #FEFED5;
+        position:absolute;
+        width:50%;
+        height:100%;
+        right:0px;  
+    }
+
+    #descripcionesTablet{
+        position:absolute;
+        text-align:center;
+        padding-top:100px;
+        padding-left:150px;
+        padding-right:150px;
+        font-family:'Century Gothic';
+        font-size:30px;
+        color:#1A1C13;
+        line-height:40px;
+
+    }
+
+    #casaTablet{
+        position:absolute;
+        top:4%;
+        left:3%;
+        width:90px;
+        height:100px;
+    }
+
+    #plantillaTablet{
+        position:absolute;
+        padding-left: 280px;
+        padding-top:60px;
+        font-family: 'Century Gothic';
+        font-size:100px;
+        line-height:300px;
+        text-align:center;
+    }
+
+    #plantillaTabletPequeño{
+        position:absolute;
+        padding-left: 70px;
+        padding-top:0px;
+        font-family: 'Century Gothic';
+        font-size:45px;
+        line-height:300px;
+        text-align:center;
+    }
+
+    #sobreMiTabletPequeño{
+        position:absolute;
+        padding-left:18%;
+        padding-top:0%;
+        font-family: 'Century Gothic';
+        font-size:45px;
+        line-height:520px;
+        text-align:center;
+    }
+    
+    #sobreMiTablet{
+        position:absolute;
+        padding-left:13%;
+        padding-top:23%;
+        font-size:100px;
+
+    }
+
+    #descripcionesTablet{
+        top:10%;
+        font-size:35px;
+    }
+
+    #puedesContactarme{
+        padding-top:30px;
+        text-align: center;
+        font-size:45px;
+        color:#1A1C13;
+    }
+
+    #plantillaContacto{
+        display: none;
+    }
+    #descripcionContacto{
+        display: none;
+    }
+    #iconosContactoMovil{
+        display: none;
+    }
+
+    #iconosContactoTablet{
+        margin-left:4%;
+        padding-top:15%;
+    }
+    #iconosContactoTablet img{
+        width:150px; 
+        height:170px;
+    }
+    #iconosContacto{
+        margin-left: 120px;
+    }
+
+    #puedesContactarme{
+        padding-top:8%;
+    }
+
+    #botonFormularioTablet{
+        position:absolute;
+        font-size:52px;
+        top: 60%;
+        left: 15%;
+        right:15%;
+        background-color: #bbc4d583;
+        border-radius: 10px;
+    }
+
+    #sobreMiContactoPequeño{
+        position:absolute;
+        padding-left: 19%;
+        padding-top:0px;
+        font-family: 'Century Gothic';
+        font-size:45px;
+        line-height:300px;
+        text-align:center;
+    }
+
+    #psobreMiContacto{
+        font-size:50px;
+        padding-top:40%;
+        padding-left:11%;
+        font-size:100px;
+    }
+
+    /**FORMULARIO**/
+    #cabezeraFormulario{
+        font-size: 100px;
+    }
+    
+    #labelFormulario{
+        font-family: 'Century Gothic';
+        background-color: #bbc4d583;
+        color:#FEFED5;
+        z-index: 1;
+        height:50px;
+        
+    }
+    
+    #campoTexto{
+        color:#FEFED5;
+        background-color: #bbc4d583;
+    }
+    
+    #label{
+        color:#FEFED5;
+        font-size:30px;
+    }
+    
+    #botonEnviar{
+        position:absolute;
+        font-size:35px;
+        top:70%;
+        left: 16%;
+        background-color: #bbc4d583;
+        border-radius: 10px;
+        height:50px;
+    }
+
+    #radio{
+        height:25px;
+        width:25px;
+
+    }
+
+    #casaFormularioTablet{
+        position:absolute;
+        right:3%;
+       bottom:2%;
+    }
+    #casaFormularioTablet img{
+        width:90px;
+        height:100px;
+    }
+
+
+
+    
+
+    
+
+    
+
+
+
+
+
+}
